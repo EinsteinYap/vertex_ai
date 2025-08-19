@@ -12,7 +12,7 @@ output_uri = "gs://vertexai2025/out_embed"
 
 
 textembedding_model = language_models.TextEmbeddingModel.from_pretrained(
-    "textembedding-gecko@003"
+    "text-embedding-005"
 )
 
 batch_prediction_job = textembedding_model.batch_predict(
